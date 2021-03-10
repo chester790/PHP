@@ -5,7 +5,7 @@
 <html>
 <head>
     <title>
-        PHP opdracht 2
+        PHP opdracht 3
     </title>
     <style>
     </style>
