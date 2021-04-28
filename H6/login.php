@@ -6,6 +6,7 @@ echo "<form method='POST'>
     <input type='password' name='password' placeholder='password'>
     <input type='submit' name='submit' value='login'>
 </form>";
+
 if (isset($_POST['submit'])) {
     $query = "SELECT * FROM account WHERE email='" . $_POST['email'] ."' AND password='" . $_POST['password']. "'";
     $output = mysqli_query($db, $query);
